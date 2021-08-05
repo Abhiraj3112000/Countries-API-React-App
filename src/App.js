@@ -52,10 +52,10 @@ class App extends React.Component {
                       Languages:<br/>
                       {eachState.languages.map((eachLanguage, index) => {
                         return<>
-                            <p key={index}>{"   "}iso639_1: {eachLanguage.iso639_1}</p>
-                            <p key={index}>{"   "}iso639_2: {eachLanguage.iso639_2}</p>
-                            <p key={index}>{"   "}name: {eachLanguage.name}</p>
-                            <p key={index}>{"   "}nativeName: {eachLanguage.nativeName}</p>
+                            <p key={index}>iso639_1: {eachLanguage.iso639_1}</p>
+                            <p key={index}>iso639_2: {eachLanguage.iso639_2}</p>
+                            <p key={index}>name: {eachLanguage.name}</p>
+                            <p key={index}>nativeName: {eachLanguage.nativeName}</p>
                         </>;
                       })}
                     </p>
