@@ -8,11 +8,11 @@ class App extends React.Component {
   state = { states: [], mounted: false };
 
   componentWillMount() {
-    this.apicall();
+    this.fetchData();
   }
 
   //Fetching data form REST-API
-  apicall() {
+  fetchData() {
     axios.get(baseUrl).then((res) => {
       this.setState({ states: res.data });
       this.setState({ mounted: true });
@@ -31,7 +31,7 @@ class App extends React.Component {
               borderRadius: "5px",
             }}
             onClick={() => {
-              this.apicall();
+              this.fetchData();
               alert("Data refreshed from API");
             }}
           >
