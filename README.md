@@ -10,4 +10,4 @@
 ## <img src="https://user-images.githubusercontent.com/64361746/128473086-42a7a355-12f3-423c-a910-3fa1826f0ee6.png" width="500" height="600">
 
 
-# Deployed [Here](https://rest-api-country-asia.netlify.app/)
+# Deployed [Here](https://asia-countries-info.netlify.app/)
